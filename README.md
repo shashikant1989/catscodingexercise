@@ -1,8 +1,4 @@
-# Created by https://www.gitignore.io
+npm install
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/
+http://localhost:8080/
 
-# Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
-node_modules
