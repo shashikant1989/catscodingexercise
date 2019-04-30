@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  display: -webkit-flex;
+  padding: 50px;
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  width: 100%;;
+}
+
+.column{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.borderBlue{
+  border-top: 1px solid rgb(0, 162, 255);
+  border-right: 1px solid rgb(0, 162, 255);
+
+}
+
+.borderBlue:last-of-type {
+  border-right: 1px solid rgb(0, 162, 255);
+}
+.borderBlue:first-of-type {
+  border-left: 1px solid rgb(0, 162, 255);
+}
+.row:last-of-type .borderBlue {
+  border-bottom: 1px solid rgb(0, 162, 255);
+
+}
+.tableRight{
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tableLeft{
+  align-items: flex-start;
+  display: flex;
+
+}
+.tableLeft .column {
+  height: 150px;
+}
+.tableRight .table{
+  width: 70%;
+}
+.tableRight .column{
+  height: 90px;
+  width: 33.33%;
+  min-width: 70px;
+}
+.result{
+  display: flex;
+  margin-top: 20px;
+}
+.win{
+  color: rgb(3, 129, 3);
+  font-size: 40px;
+}
+.lose{
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+
+}
+.btnPlay{
+  font-size: 20px;
+color: #fff;
+background-color: rgb(0, 162, 255);
+padding: 20px;
+margin-left: 20px;
+border-radius: 50px;
+text-align: center
+}
+.pointer{
+  cursor: pointer;
+}
