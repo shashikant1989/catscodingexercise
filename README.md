@@ -1,4 +1,8 @@
+## Installation
+
 npm install
 
-http://localhost:8080/
+Run npm start 
+
+Browse http://localhost:8080/
 
